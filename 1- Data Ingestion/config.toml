@@ -1,0 +1,13 @@
+[file]
+url = "https://de-materials-tpcds.s3.ca-central-1.amazonaws.com/inventory.csv"
+destination_folder = "/tmp"
+file_name = "inventory.csv"
+local_file_path = "/tmp/inventory.csv"
+    
+[snowflake]
+account = "MWUGXJK-ARB92400"
+warehouse = "TPCDS"
+database = "TPCDS"
+schema = "RAW"
+table = "inventory"
+stage_name = "inv_Stage"
